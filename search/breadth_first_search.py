@@ -25,7 +25,7 @@ import logging
 from . import searchspace
 
 
-def breadth_first_search(planning_task):
+def breadth_first_search(planning_task, use_preferred_ops=False):
     """
     Searches for a plan on the given task using breadth first search and
     duplicate detection.
